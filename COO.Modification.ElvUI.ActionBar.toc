@@ -1,0 +1,11 @@
+## Interface: 88881
+## Author: COO
+## Version: 1.4.2
+## Title: COO.M.ElvUI.ActionBar
+## Notes: AddOn by COO for World of Warcraft
+## SavedVariables: COO.ElvUI.ActionBar
+## RequiredDeps: ElvUI
+## OptionalDeps: SharedMedia
+
+COO.Modification.ElvUI.ActionBar.Core.lua
+COO.Modification.ElvUI.ActionBar.Load.xml

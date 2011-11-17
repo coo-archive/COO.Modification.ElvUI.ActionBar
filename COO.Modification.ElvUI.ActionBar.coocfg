@@ -1,0 +1,37 @@
+local COO, COOCFG = unpack(select(2, ...))
+
+-- Orientation:1 = Horizontal
+-- Orientation:2 = Vertical
+
+local CFG = COOCFG
+
+CFG.ClassBarOrientation = COO.Orientation[2]
+CFG.F2BarOrientation = COO.Orientation[1]
+CFG.F3BarOrientation = COO.Orientation[1]
+CFG.F4BarOrientation = COO.Orientation[2]
+CFG.F5BarOrientation = COO.Orientation[2]
+CFG.ButtonSpacing = 6
+CFG.ActionButtonSize = 32
+CFG.ClassButtonSize = 24
+
+CFG.SecondaryBar[1] = {
+	["Orientation"] = COO.Orientation[1],
+}
+CFG.SecondaryBar[2] = {
+	["Orientation"] = COO.Orientation[1],
+}
+CFG.SecondaryBar[3] = {
+	["Orientation"] = COO.Orientation[1],
+}
+CFG.SecondaryBar[4] = {
+	["Orientation"] = COO.Orientation[2],
+}
+CFG.SecondaryBar[5] = {
+	["Orientation"] = COO.Orientation[2],
+}
+-- ClassBar
+CFG.SecondaryBar[6] = {
+	["Orientation"] = COO.Orientation[2],
+}
+-- PetBar
+CFG.SecondaryBar[7] = {}
